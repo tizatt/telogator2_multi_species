@@ -1,0 +1,13 @@
+name: telogator2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - biopython>=1.82
+  - matplotlib
+  - numpy
+  - scipy
+  - pysam<=0.22.0
+  - pywavelets
