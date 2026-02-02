@@ -1,0 +1,14 @@
+Stats scripts:
+
+
+Allele stats script - To run after telogator finishes
+
+	python tel_allele_stats.py {allele tsv file} {output file - *stats.txt}
+
+
+QC stats script ->
+
+	python telogator_qc_stats.py \
+               -i {allele tsv file}
+               -f {original ref fai file}
+	       -o {qc stats output file}               
